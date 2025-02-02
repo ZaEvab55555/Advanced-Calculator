@@ -53,3 +53,36 @@ Requirements
 Python 3.x
 Standard Python libraries (tkinter, math, fractions, and re)
 No external libraries are required.
+**Usage**
+Save the calculator python file and run it. 
+Entering Expressions:
+Type your mathematical expression in the entry box.
+The calculator accepts input via both buttons and keyboard.
+Special handling:
+Use |...| for absolute value.
+Typing 123! automatically converts to factorial(123).
+Use x or * for multiplication.
+Use ^ for exponentiation (which is converted to Python’s **).
+Using Mode Toggles:
+
+**Fraction/Decimal**: Press the "Frac/Dec" button to toggle between fraction and decimal output.
+π Format: Press the "Show π" button to toggle π formatting. When ON, numbers nearly equal to an integer multiple of π are shown in terms of π.
+Trigonometric Mode: Press the "Deg/Rad" button to toggle between Degrees and Radians. The bottom panel updates to reflect the current mode.
+Advanced Operations:
+
+**Euler’s Totient Function (φ)**: Located in Row 4, Column 5.
+Prime Count: Located in Row 7, Column 4 (labeled "prime#") shows the number of primes ≤ the entered number.
+Cubic Root: The "∛" button in Row 7, Column 4 inserts cbrt( so you can calculate the cubic root.
+Floor/Ceiling: Buttons in Row 8 apply floor and ceiling operations directly.
+Factorial: The "!" button in Row 8 inserts an exclamation mark; when placed after a number (e.g., 5!), it is interpreted as the factorial.
+Calculation History:
+
+The history panel displays your past calculations.
+Each entry includes the expression and its result.
+Use the "X" next to each entry to delete that calculation.
+Click "Clear History" to remove all entries.
+Customization
+You can modify the button labels, sizes, fonts, or other settings by editing the code. The mode toggles and evaluation preprocessing are implemented in the helper functions, making further customization straightforward.
+
+**License**
+This project is provided "as is" without warranty. Feel free to modify and use it as needed.
